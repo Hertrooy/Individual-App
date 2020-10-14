@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Inidivual Assignment</title>
+	<link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="../css/style.css" rel="stylesheet" type="text/css">
+	<link href="../fonts/GothamBlack/stylesheet.css" rel="stylesheet" type="text/css">
+	<script src="../js/script.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="mySidenav" class="sidenav bg-warning border-right border-dark custom-margin">
+  <a href="javascript:void(0)" class="closebtn text-dark custom-burger" onclick="closeNav()">&times;</a>
+  		<a href="../index.html" class=" list-group-item-action text-dark">new dishes</a>
+  		<a href="popular.html" class="list-group-item-action text-dark">popular dishes</a>
+  		<a href="favorite.html" class="list-group-item-action text-dark">favorite dishes</a>
+		<a href="contact.html" class="list-group-item-action text-dark">contact</a>
+</div>
+
+<!-- Use any element to open the sidenav -->
+<div class="bg-warning custom-header">
+<span class="font-weight-bold ml-3 custom-burger" onclick="openNav()">&#x2630;</span>
+<a href="../index.html"><h5 class="navbar-brand mb-0 h1 float-right text-dark" >myCookBook</h5></a>
+</div>
+</div>
+	<div class="contact-form p-3">
+		<h4 class="text-center">Contact us</h4>
+		<p class="text-center">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.</p>
+		<hr>
+		<form onsubmit="myFunction()">
+		<p class="form-item ">Your name</p>
+		<input  class="w-100">
+		<p class="form-item pt-3" type="email">Your email</p>
+		<input  class="w-100">
+		<p class="form-item pt-3">Subject</p>
+		<input  class="w-100">
+		<p class="form-item pt-3">Your message</p>
+			<textarea  class="w-100"> </textarea>
+		<button type="submit" class="btn btn-warning btn-block mt-3 form-control-lg" rows="3">Submit</button>
+		</form>
+		<script>
+function myFunction() {
+  alert("Your form has been sent!");
+}
+</script>
+	</div>
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="../js/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
