@@ -7,23 +7,23 @@ span, a, h6, label, p, input, li {
 
 
 h3, h4 {
-	font-family: 'lato', black;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 900 !important;
 }
 
 h5 {
-	font-family: 'lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold !important;
   font-style: italic;
   font-size: large !important;
 }
 
 button {
-	font-family: 'Gotham Light';
+  font-family: 'Montserrat', sans-serif;
 }
 
 span{
-	font-family:'Gotham Light';
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -55,7 +55,7 @@ nav > a{
 }
 
 .custom-margin a{
-  font-family: 'lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold !important;
   font-style: italic;
   font-size: large !important;
@@ -86,7 +86,7 @@ nav > a{
 }
 
 button, .fat{
-	font-family: "Gotham Medium";
+  font-family: 'Montserrat', sans-serif;
 	letter-spacing: 2px;
 }
 
