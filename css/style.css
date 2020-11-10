@@ -12,18 +12,18 @@ h3, h4 {
 }
 
 h5 {
-	font-family: 'lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold !important;
   font-style: italic;
   font-size: large !important;
 }
 
 button {
-	font-family: 'Gotham Light';
+  font-family: 'Montserrat', sans-serif;
 }
 
 span{
-	font-family:'Gotham Light';
+  font-family: 'Montserrat', sans-serif;
 }
 
 
